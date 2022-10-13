@@ -1,1 +1,83 @@
 
+
+html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+  h1, body{
+    font-family: Fira Sans Medium;
+
+
+  }
+  
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Fira sans, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}
+
+header {
+  width: 100vw;
+  height: 6vh;
+  display: block;
+background-color: #fff
+}
+
+
+#logo {
+  width: auto;
+  height: 7em;
+  padding: 0.5em 1em;
+  position: absolute;
+  margin-top: 1px;
+}
+a{
+background-color: white;
+border-radius: 0.5;
+
+
+}
+.link{
+display: inline;
+margin: 0.4em;
+padding: 0.04;
+text-align: center;
+
+}
+.aside{
+
+  display: flex;
+  align-items: center;
+  margin-right: 1.6rem;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: #b9005f;
+  width: 20em;
+  padding: 2em;
+  border-radius: 1rem;
+  justify-self: end;
+  flex-direction: column;
+
+}
+
+.kaart {
+  justify-content: center;
+  align-content: center;
+  background-color:#b9005f;
+color: #fff;
+border-radius: 10px;
+background-color: #b9005f;
+color: #fff;
+border-radius: 10px;
+margin: 22rem;
+width: 40em;
+padding: 4rem;
+
+}
+
+

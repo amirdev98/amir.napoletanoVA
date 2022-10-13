@@ -1,0 +1,6 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .categorie {
+      display: block;
+      width: 9em;
+      margin: 0.5em 0.1em;
+    }

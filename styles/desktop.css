@@ -1,0 +1,6 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+    .categorie {
+      display: flex;
+      width: 16em;
+      margin: 0.4em 0.1em;
+    }
